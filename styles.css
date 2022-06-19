@@ -288,7 +288,7 @@ button:hover{
         flex-direction: column;
     }
     .lidiv{
-        flex-direction: column;
+        flex-direction: row;
     }
     .ss3{
         flex-direction: column;
@@ -304,5 +304,44 @@ button:hover{
     }
     footer img{
         width: 5%;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:500px) {
+    .ff{
+        background-image: url(img/bg-hero-mobile.svg)
+    }
+    .d1{
+        flex-direction: column;
+    }
+    .ss1{
+        flex-direction: column;
+    }
+    .ttd{
+        flex-direction: column;
+    }
+    .lidiv{
+        flex-direction: row;
+    }
+    .ss3{
+        flex-direction: column;
+    }
+    .ss2{
+        flex-direction: column;
+    }
+    .dword{
+        width: fit-content;
+        margin-right: 2%;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+    footer img{
+        width: 22%;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1050px) {
+    footer img{
+        /* left: 50%; */
+        margin-left: -10%;
     }
 }
